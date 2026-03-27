@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&display=swap');
+/* importando as fontes do google */
 
+/* Garante que o padding e a borda não aumentem o tamanho real dos elementos */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* variaveis */
 :root {
   --bg: #0a0a0a;
   --surface: #141414;
@@ -19,6 +22,7 @@
   --max-width: 1080px;
 }
 
+/* garante que o site ocupe toda a altura da tela e remove espaços em branco extras */
 html,
 body,
 #root {
@@ -193,7 +197,6 @@ button {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .info-grid {
