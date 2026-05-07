@@ -43,6 +43,25 @@ video {
   max-width: 100%;
 }
 
+.pesquisar {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 800px;
+  height: 600;
+  padding: 100px;
+}
+
+.labelpesq {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 button {
   font: inherit;
 }
