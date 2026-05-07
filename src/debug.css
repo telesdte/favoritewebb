@@ -43,14 +43,28 @@ video {
   max-width: 100%;
 }
 
-.pesquisar {
+.pesquisar  {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 800px;
-  height: 600;
-  padding: 100px;
+  padding: 20px;
+}
+.pesquisar .psq {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid var(--accent); 
+  transition: 0.3s;
+  border-radius: 10px;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.psq:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 15px var(--accent); 
+  cursor: pointer;
 }
 
 .labelpesq {
@@ -58,7 +72,8 @@ video {
     justify-content: center;
     align-items: center;
     display: flex;
-    font-size: 20px;
+    padding-top: 50px;
+    font-size: 25px;
     font-weight: 600;
 }
 
